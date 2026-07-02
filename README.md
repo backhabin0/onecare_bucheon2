@@ -4,7 +4,7 @@
 
 ## 배포 주소
 
-- 기본 Cloudflare Pages 주소: `https://onecare.pages.dev/`
+- 기본 Cloudflare Pages 주소: `https://onecare-bucheon2.pages.dev/`
 
 ## 프로젝트 구조
 
@@ -51,13 +51,13 @@ Cloudflare Pages를 GitHub 리포지토리와 연결해두면 `git push` 후 자
 ## 네이버 서치어드바이저 등록 순서
 
 1. 네이버 서치어드바이저 접속
-2. 사이트 등록: `https://onecare.pages.dev/`
+2. 사이트 등록: `https://onecare-bucheon2.pages.dev/`
 3. 소유확인 진행
-4. `index.html`의 `NAVER_VERIFICATION_CODE`를 실제 네이버 인증코드로 교체 후 다시 배포
+4. `index.html`의 `naver-site-verification` 값이 실제 네이버 인증코드와 일치하는지 확인
 5. 사이트맵 제출: `sitemap.xml`
-6. 웹 페이지 수집 요청: `https://onecare.pages.dev/`
+6. 웹 페이지 수집 요청: `https://onecare-bucheon2.pages.dev/`
 7. URL 검사
-8. 네이버 검색창에서 `site:onecare.pages.dev` 검색
+8. 네이버 검색창에서 `site:onecare-bucheon2.pages.dev` 검색
 
 ## 소유확인 HTML 파일 방식 사용 시
 
@@ -72,15 +72,15 @@ naverxxxxxxxxxxxx.html
 배포 후 아래 주소에서 직접 열려야 합니다.
 
 ```txt
-https://onecare.pages.dev/naverxxxxxxxxxxxx.html
+https://onecare-bucheon2.pages.dev/naverxxxxxxxxxxxx.html
 ```
 
 ## 배포 후 확인 URL
 
 ```txt
-https://onecare.pages.dev/
-https://onecare.pages.dev/robots.txt
-https://onecare.pages.dev/sitemap.xml
+https://onecare-bucheon2.pages.dev/
+https://onecare-bucheon2.pages.dev/robots.txt
+https://onecare-bucheon2.pages.dev/sitemap.xml
 ```
 
 `robots.txt`는 반드시 아래처럼 보여야 합니다.
@@ -89,7 +89,7 @@ https://onecare.pages.dev/sitemap.xml
 User-agent: *
 Allow: /
 
-Sitemap: https://onecare.pages.dev/sitemap.xml
+Sitemap: https://onecare-bucheon2.pages.dev/sitemap.xml
 ```
 
 ## SEO 점검 포인트
